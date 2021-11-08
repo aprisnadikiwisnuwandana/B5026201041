@@ -1,0 +1,157 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #page {
+    padding-top: 1rem;
+  }
+  
+  #favorit {
+    padding-top: 1px;
+  }
+  
+  #favorit2 {
+    padding: 14px 40px;
+  }
+  
+  #favorite3 {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 110px;
+    font-size: small;
+  }
+
+  #share {
+    padding: 14px 40px;
+  }
+  
+  #pemisah {
+    padding: 10px;
+    border: none;
+    width: 10pc;
+  }
+  
+  #share2 {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 110px;
+    font-size: small;
+  }
+  
+  #favoritbutton {
+    color: black;
+  }
+  #favoritbutton:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #favoritbutton:hover {
+    color: red;
+    background-color: transparent;
+  }
+  
+  #sharebutton {
+    color: black;
+  }
+  #sharebutton:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #sharebutton:hover {
+    color: red;
+    background-color: transparent;
+  }
+  
+  #heart {
+    color: black;
+  }
+  #heart:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #heart:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+  }
+  
+  #chatbutton {
+    width: 100px;
+    color: black;
+  }
+  
+  #chatbutton:hover {
+    background-color: #e7e7e7;
+  }
+  
+  #basket {
+    width: 225px;
+    color: black;
+  }
+  
+  #basket:hover {
+    background-color: #e7e7e7;
+  }
+  
+  #buynow {
+    width: 280px;
+    background-color: #ec0e49;
+  }
+  
+  #buynow:hover {
+    background-color: #c10b3c;
+  }
+  
+  #send {
+    padding-top: 8px;
+  }
+  
+  .table {
+    column-rule-style: none;
+    height: 50px;
+    border-style: none;
+  }
+  
+  #change {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+  }
+  
+  #changeaddress {
+    color: black;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+  }
+  
+  #changeaddress:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #changeaddress:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+  }
+  
+  .fa-star {
+    color: gold;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  hr {
+    color: #afaeae;
+  }
+  
+  .col-sm-auto {
+    padding-top: 1rem;
+    width: 75px;
+    align-content: flex-start;
+  }
+  

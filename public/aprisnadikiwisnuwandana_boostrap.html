@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Custom Forms</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container mt-3">
+  <h2>Formulir Pengisian Data Diri</h2>
+  <p>Isilah formulir berikut dengan benar!</p>
+  <p>1. Apakah Anda bersedia mengisi formulir di bawah ini!</p>
+  <form action="/action_page.php">
+    <div class="custom-control custom-radio">
+        <input type="radio" id="defaultRadio" name="example2">
+        <label for="defaultRadio">Iya</label><br>
+        <input type="radio" id="defaultRadio" name="example2">
+        <label for="defaultRadio">Tidak</label>
+    </div> 
+  <p>2. Pilih 2 atau lebih bidang pekerjaan yang Anda minati!</p>
+  <form action="/action_page.php">
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" id="defaultCheck" name="example2">
+        <label for="defaultCheck">SEO</label><br>
+        <input type="checkbox" id="defaultCheck" name="example2">
+        <label for="defaultCheck">Desainer Grafis</label><br>
+        <input type="checkbox" id="defaultCheck" name="example2">
+        <label for="defaultCheck">Social Media Strategist</label><br>
+        <input type="checkbox" id="defaultCheck" name="example2">
+        <label for="defaultCheck">Business Analyst</label><br>
+        <input type="checkbox" id="defaultCheck" name="example2">
+        <label for="defaultCheck">Software Developer</label><br>
+        <input type="checkbox" id="defaultCheck" name="example2">
+        <label for="defaultCheck">Video Editor</label><br>
+        <input type="checkbox" id="defaultCheck" name="example2">
+        <label for="defaultCheck">Web Developer</label><br>
+        <input type="checkbox" id="defaultCheck" name="example2">
+        <label for="defaultCheck">Public Relation</label><br>
+    </div>
+  <p>3. Aktifkan fitur di bawah ini untuk melanjutkan pengisian formulir!</p>
+  <form action="/action_page.php">
+    <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="switch1" name="example">
+        <label class="custom-control-label" for="switch1">On</label>
+    </div><br>
+  <p>4. Apa yang dibutuhkan untuk menunjang pekerjaan Anda?</p>
+  <form action="/action_page.php">
+    <select name="cars" class="custom-select mb-3">
+        <option selected>Pilihan</option>
+        <option value="volvo">Lingkungan yang kondusif</option>
+        <option value="fiat">Team yang suportif</option>
+        <option value="audi">Gaji yang tinggi</option>
+    </select>
+  <p>5. Beri kisaran komitmen Anda dalam bekerja!</p>
+  <form action="/action_page.php">
+        <label for="customRange">Range 1 sampai 10</label>
+        <input type="range" class="custom-range" id="customRange" name="points1">
+  </form>
+  <p><strong>Kirim CV Anda!</strong></p>
+  <form action="/action_page.php">
+    <p>Format penamaan = CV_NamaLengkap.pdf</p>
+    <div class="custom-file mb-3">
+        <input type="file" class="custom-file-input" id="customFile" name="filename">
+        <label class="custom-file-label" for="customFile">Choose file</label>
+    </div>
+  </form> 
+  <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</body>
+</html>
