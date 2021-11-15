@@ -30,3 +30,6 @@ Route::get('ets', 'ViewController@showEts');
 Route::get('tugas', 'ViewController@showTugas');
 
 Route::post('php', 'ViewController@showPhp');
+
+//route CRUD
+Route::get('/pegawai','PegawaiController@index');
