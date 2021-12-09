@@ -42,6 +42,9 @@ Route::post('/pegawai/update','PegawaiController@update');
 
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
 
+Route::get('/pegawai/cari','PegawaiController@cari');
+Route::get('/pegawai/detail/{id}','PegawaiController@view');
+
 //pendapatan
 Route::get('/pendapatan','PendapatanController@index');
 
@@ -59,3 +62,16 @@ Route::post('/absen/store','AbsenController@store');
 Route::get('/absen/edit/{id}','AbsenController@edit');
 Route::post('/absen/update','AbsenController@update');
 Route::get('/absen/hapus/{id}','AbsenController@hapus');
+
+Route::get('/kopi','KopiController@index');
+
+Route::get('/kopi/tambah','KopiController@tambah');
+Route::post('/kopi/store','KopiController@store');
+
+Route::get('/kopi/edit/{id}','KopiController@edit');
+Route::post('/kopi/update','KopiController@update');
+
+Route::get('/kopi/hapus/{id}','KopiController@hapus');
+
+Route::get('/kopi/cari','KopiController@cari');
+Route::get('/kopi/detail/{id}','KopiController@view');

@@ -11,7 +11,7 @@
 
 	<table class="table table-success table-striped">
 		<tr>
-			<th>IDPegawai</th>
+			<th>Nama Pegawai</th>
 			<th>Bulan</th>
 			<th>Tahun</th>
 			<th>Gaji</th>
@@ -20,7 +20,7 @@
 		</tr>
 		@foreach($pendapatan as $p)
 		<tr>
-			<td>{{ $p->pendapatan_idpegawai }}</td>
+			<td>{{ $p->pegawai_nama }}</td>
 			<td>{{ $p->pendapatan_bulan }}</td>
 			<td>{{ $p->pendapatan_tahun }}</td>
 			<td>{{ $p->pendapatan_gaji }}</td>
@@ -33,5 +33,6 @@
 		</tr>
 		@endforeach
 	</table>
+    {{ $pendapatan->links() }}
 
 @endsection
