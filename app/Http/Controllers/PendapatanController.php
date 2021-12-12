@@ -35,7 +35,6 @@ public function store(Request $request)
 {
 	// insert data ke table pegawai
 	DB::table('pendapatan')->insert([
-		'pendapatan_idpegawai' => $request->idpegawai,
 		'pendapatan_bulan' => $request->bulan,
 		'pendapatan_tahun' => $request->tahun,
 		'pendapatan_gaji' => $request->gaji,
@@ -58,7 +57,6 @@ public function update(Request $request)
 {
 	// update data pendapatan
 	DB::table('pendapatan')->where('pendapatan_id',$request->id)->update([
-		'pendapatan_idpegawai' => $request->idpegawai,
 		'pendapatan_bulan' => $request->bulan,
 		'pendapatan_tahun' => $request->tahun,
 		'pendapatan_gaji' => $request->gaji,
