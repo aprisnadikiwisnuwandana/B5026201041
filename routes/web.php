@@ -75,3 +75,11 @@ Route::get('/kopi/hapus/{id}','KopiController@hapus');
 
 Route::get('/kopi/cari','KopiController@cari');
 Route::get('/kopi/detail/{id}','KopiController@view');
+
+
+Route::get('/keranjangbelanja','KeranjangBelanjaController@index');
+
+Route::get('/keranjangbelanja/tambah','KeranjangBelanjaController@tambah');
+Route::post('/keranjangbelanja/store','KeranjangBelanjaController@store');
+
+Route::get('/keranjangbelanja/hapus/{id}','KeranjangBelanjaController@hapus');
